@@ -1,0 +1,11 @@
+NeRFSmall(
+  (sigma_net): ModuleList(
+    (0): Linear(in_features=32, out_features=64, bias=False)
+    (1): Linear(in_features=64, out_features=16, bias=False)
+  )
+  (color_net): ModuleList(
+    (0): Linear(in_features=31, out_features=64, bias=False)
+    (1): Linear(in_features=64, out_features=64, bias=False)
+    (2): Linear(in_features=64, out_features=3, bias=False)
+  )
+)
